@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale=0.75,a4paper]{geometry}
+\usepackage{babel}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{David Ricardo}
+\familyname{Montalván Hernández}
+% \title{CV}                               % optional, remove/comment the line if not wanted
+\address{Unidad habitacional Lindavista Vallejo, edificio 58 manzana 2 departamento 102 entrada B.}{C.P. 07720}{Gustavo A. Madero, Mexico City}         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{(+521)5551498306}                          % optional, remove/comment the line if not wanted
+\phone{015555679883}                           % optional, remove/comment the line if not wanted
+%\fax{fax number}                             % optional, remove/comment the line if not wanted
+\email{davidricardo888@gmail.com}                               % optional, remove/comment the line if not wanted
+\homepage{https://davidrmh.github.io}                         % optional, remove/comment the line if not wanted
+% %\extrainfo{additional information}                 % optional, remove/comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% %\quote{some quote}                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+\cventry{2017--2019}{Master degree in Computer Science (Artificial Intelligence Laboratory)}{Computing Research Center, National Polytechnic Institute (IPN)}{Mexico City}{}{}
+
+\cventry{2008--2012}{Bachelor degree in Actuarial Science}{Sciences Faculty, National Autonomous University of Mexico (UNAM)
+ }{Mexico City}{}{}  % arguments 3 to 6 can be left empty
+
+\section{Master's Thesis}
+\cvitem{\textbf{Title}}{Automatic rule learning for trading in the stock market}
+\cvitem{\textbf{Abstract}}{This work is about the proposal of a methodology for learning automatically a set of trading rules for the Mexican and U.S. stock markets. The proposed methodology follows the paradigm of symbolic machine learning. AQ and CN2 rule induction algorithms are used in order to learn the set of trading rules.}
+
+\section{Bachelor's Thesis}
+	\cvitem{\textbf{Title}}{A jump diffusion model for pricing european options.}
+%\cvitem{supervisors}{Supervisors}
+\cvitem{\textbf{Abstract}}{Robert Merton's jump diffusion model for pricing european options is analysed using the equivalent martingale measure paradigm, in contrast with the integro-partial differential equation approach under which it was originally developed.}
+
+\section{Experience}
+%\subsection{Vocational}
+
+\cventry{2019-Current}{Teacher for two modules in a data science diploma}{Mexico Autonomous Institute of Technology (ITAM)}{Mexico City}{}{I'm imparting two modules for a diploma in data science and machine learning applied to finance. The first module is about python programming and the second one is a review of linear algebra, optimization, probability and statistics.}
+
+\cventry{2015--2017}{Economics Data Analyst}{Bloomberg L.P.}{Mexico City}{}{Data acquisition and maintenance for Latin America economic indicators.}{I improved the workflow for México's statistics department (INEGI) reducing the acquisition time to less than five minutes.}{ I also integrated several web services from distinct sources in order to improve the data acquisition process.}
+
+\cventry{2013--2015}{Stock market indexes analyst}{Mexican Stock Exchange}{Mexico City}{}{I gave maintenance to  all stock indexes property of the Mexican Stock Exchange (constituents selection, corporate events, assistance for clients, etc.)}{Automated internal processes and improved the optimization algorithm for Bursa Óptimo index.}
+
+\cventry{2012--2013}{Teacher assistant for two courses in risk theory }{Sciences faculty, National Autonomous University of Mexico (UNAM)}{Mexico City}{}{I was in charge of imparting laboratory sessions and elaborating/grading homeworks and tests. }
+
+% \subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines}
+\section{Languages}
+\cvitemwithcomment{English}{TOEFL iBT May 2017. Total Score 93 / 120}{Reading: High (28/30)\\ Listening: High(24/30)\\ Speaking: Fair(23/30)\\ Writing: Fair(18/30)}
+% %\cvitemwithcomment{Language 2}{Skill level}{Comment}
+% %\cvitemwithcomment{Language 3}{Skill level}{Comment}
+\section{Programming Languages / Software}
+\cvdoubleitem{}{Python}{}{C/C++}
+\cvdoubleitem{}{R}{}{SQL}
+\cvdoubleitem{}{Visual Basic}{}{Git}
+\cvdoubleitem{}{Excel}{}{Bloomberg Terminal}
+\cvdoubleitem{}{HTML}{}{Javascript}
+\cvdoubleitem{}{LISP}{}{Linux}
+\cvdoubleitem{}{SAS}{}{Spark (pyspark)}
+\cvdoubleitem{}{Matlab / Octave}{}{}
+\section{Interests}
+\cvdoubleitem{}{Quantitative finance}{}{Data science}
+\cvdoubleitem{}{Bayesian learning}{}{Computational statistics}
+\cvdoubleitem {}{Data visualization}{}{Artificial intelligence}
+\cvdoubleitem{} {Bio-inspired algorithms}{}{Inductive logic programming}
+\cvdoubleitem{}{Probabilistic graphical models}{}{Probabilistic programming}
+\cvdoubleitem{}{Statistical relational learning}{}{Interpretable machine learning}
+\cvdoubleitem{}{Topology}{}{Measure theory}
+% %\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem{Item 3}
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5}
+%\cvlistdoubleitem{Item 3}{Item 6}
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{Comment}
+%  \cvcolumn{Category 2}{Comment}
+%  \cvcolumn{Category 3}{Comment}
+%\end{cvcolumns}
+% \clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company's name\\Street address\\Zip Code City}
+%\date{Date}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure{enclosures}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+%\makeletterclosing
+\end{document}
