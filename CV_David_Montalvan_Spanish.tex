@@ -1,0 +1,108 @@
+\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale=0.75,a4paper]{geometry}
+\usepackage{babel}
+
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{David Ricardo}
+\familyname{Montalván Hernández}
+% \title{CV}                               % optional, remove/comment the line if not wanted
+\address{Unidad habitacional Lindavista Vallejo, edificio 58 manzana 2 departamento 102 entrada B.}{C.P. 07720}{Gustavo A. Madero, Ciudad de México}         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{(+521)5551498306}                          % optional, remove/comment the line if not wanted
+\phone{015555679883}                           % optional, remove/comment the line if not wanted
+%\fax{fax number}                             % optional, remove/comment the line if not wanted
+\email{davidricardo888@hotmail.com}                               % optional, remove/comment the line if not wanted
+\homepage{https://davidrmh.github.io}                         % optional, remove/comment the line if not wanted
+% %\extrainfo{additional information}                 % optional, remove/comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% %\quote{some quote}                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+%\section{Personal information}
+%\cvitem{Nationality}{Mexican}
+%\cvitem{Date of birth}{February 8th 1990}
+%\cvitem{Marital status}{Single - no children}
+\section{Educación}
+\cventry{2017--2019}{Maestría en Ciencias de la Computación (Laboratorio de Inteligencia Artificial)}{Centro de Investigación en Computación, Instituto Politécnico Nacional (IPN) }{ Ciudad de México}{}{}
+
+\cventry{2008--2012}{Licenciatura en Actuaría}{Facultad de Ciencias, Universidad Nacional Autónoma de México (UNAM)
+ }{Ciudad de México}{}{}  % arguments 3 to 6 can be left empty
+
+\section{Tesis de Maestría}
+\cvitem{\textbf{Título}}{Aprendizaje de reglas para operar en el mercado accionario}
+\cvitem{\textbf{Resumen}}{En este trabajo se propone una metodología para aprender de manera automática un conjunto de reglas para operar en el mercado accionario de México y Estados Unidos. La metodología propuesta utiliza algoritmos de aprendizaje que pertenecen al área de inteligencia artificial simbólica, con lo que se obtienen modelos interpretables.}
+
+\section{Tesis de licenciatura}
+	\cvitem{\textbf{Título}}{Un modelo de difusión con saltos para valuar opciones europeas}
+%\cvitem{supervisors}{Supervisors}
+\cvitem{\textbf{Resumen}}{Desde la perspectiva de medidas equivalentes martingala, se analiza el modelo propuesto por Robert Merton para valuar opciones del tipo europeo. Este modelo es una extensión del modelo de Black-Scholes al incluir un proceso de saltos en la dinámica de los precios.}
+
+\section{Experiencia laboral}
+%\subsection{Vocational}
+
+\cventry{Octubre 2019-Actual}{Profesor diplomado ciencia de datos aplicada a finanzas}{Instituto Tecnológico Autónomo de México (ITAM)}{Ciudad de México}{}{Imparto el material de dos módulos que comprenden el diplomado en ciencia de datos y machine learning con aplicaciones en finanzas. El primero de estos módulos se enfoca en enseñar el lenguaje de programación Python, mientras que en el segundo se revisan los temas relacionados al álgebra lineal, optimización, probabilidad y estadística}
+
+\cventry{2015--2017}{Analista de datos económicos}{Bloomberg L.P.}{Ciudad de México}{}{Realizaba el análisis de indicadores macroeconómicos para la región de Latino América.}{También trabajé en la integración de servicios web para automatizar la adquisición de datos macroeconómicos. }{}
+
+\cventry{2013--2015}{Analista de índices accionarios}{Bolsa Mexicana de Valores}{Ciudad de México}{}{Me encargaba del mantenimiento a los índices accionarios propiedad de la Bolsa Mexicana de Valores (selección de muestra, rebalanceos, creación de índices) entre ellos el Índice de Precios y Cotizaciones (IPC)}{Mejoraré el proceso de optimización del índice Bursa Óptimo reduciendo la duración del algoritmo de 12 horas a 5 minutos.}
+
+\cventry{2012--2013}{Ayudante de profesor}{Facultad de Ciencias, Universidad Nacional Autónoma de México}{Ciudad de México}{}{Me encargué de dar clases, revisar tareas y exámenes en dos cursos de teoría del riesgo.}
+
+\section{Publicaciones}
+\cvitem{$\bullet$}{Generating Trading Strategies in the Mexican Stock Market: A Pattern Recognition Approach - Research in computing science 147(12), 2018. \url{https://tinyurl.com/vqlmoku}
+}
+% \subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines}
+\section{Idiomas}
+\cvitemwithcomment{Inglés}{TOEFL iBT Mayo 2017. Puntaje Total 93 / 120}{Reading: High (28/30)\\ Listening: High(24/30)\\ Speaking: Fair(23/30)\\ Writing: Fair(18/30)}
+% %\cvitemwithcomment{Language 2}{Skill level}{Comment}
+% %\cvitemwithcomment{Language 3}{Skill level}{Comment}
+\section{Lenguajes de programación / Software}
+\cvdoubleitem{}{Python}{}{C/C++}
+\cvdoubleitem{}{R}{}{SQL}
+\cvdoubleitem{}{Visual Basic}{}{Git}
+\cvdoubleitem{}{Excel}{}{Terminal de Bloomberg}
+\cvdoubleitem{}{HTML}{}{Javascript}
+\cvdoubleitem{}{LISP}{}{Linux}
+\cvdoubleitem{}{\LaTeX}{}{Spark (pyspark)}
+\cvdoubleitem{}{Matlab / Octave}{}{}
+\section{Áreas de Interés}
+\cvdoubleitem{}{Finanzas cuantitativas}{}{Ciencias de datos}
+\cvdoubleitem{}{Aprendizaje bayesiano}{}{Estadística computacional}
+\cvdoubleitem {}{Visualización de datos}{}{Inteligencia artificial}
+\cvdoubleitem{} {Algoritmos bio-inspirados}{}{Programación lógica inductiva}
+\cvdoubleitem{}{Modelos gráficos probabilísticos}{}{Programación probabilística}
+%\cvdoubleitem{}{Statistical relational learning}{}{Interpretable machine learning}
+%\cvdoubleitem{}{Topology}{}{Measure theory}
+% %\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem{Item 3}
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5}
+%\cvlistdoubleitem{Item 3}{Item 6}
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{Comment}
+%  \cvcolumn{Category 2}{Comment}
+%  \cvcolumn{Category 3}{Comment}
+%\end{cvcolumns}
+% \clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company's name\\Street address\\Zip Code City}
+%\date{Date}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure{enclosures}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+%\makeletterclosing
+\end{document}
